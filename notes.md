@@ -1,5 +1,6 @@
-# 命令/概念：[名称]
-## 英文原文：[摘录关键句子]
+# 命令/概念: sed
+## 英文原文：
+	Sed is a stream editor. Atream editor is used
 ## 我的翻译：[自己的理解]
 ## 核心要点：
 1. [要点1]
