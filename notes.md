@@ -9,13 +9,19 @@
     more efficient. But it is sed's ability to filter text in a pipeline which
     particularly distinguishes it from other types of editors.
 ## 单词
+    [技术主体] works by 方法   技术文档固定句式： 某物的工作原理是 或
+    某物是通过... 这这种方式来运行/来实现功能的
+    consequently 因此 连接副词
+    it is ... which ... 强调句型
+    distinguishes A from B 将A与B区分开
 ## 我的翻译：[自己的理解]
     Sed 是一个流编辑器。
     流编辑器是在输入流（一个文件或者来自管道的输入流)上被用于运行简单文本处理。虽然它在某些方式上类似于允许脚本运行的编辑器，sed
-    sed能够运行，在于它在输出上做单遍处理，
+    sed之所有能够有效运行，在于它在输出上做单遍处理，因此，它效率更高.
+    然而，正是它在管道中过滤文本的能力，使它与其他类型的编辑器尤为不同
 ## 核心要点：
-1. [要点1]
-2. [要点2]
+1. sed只遍历文本一遍
+2. 在管道中过滤文本
 ## 示例代码：
 ```bash
 # 示例
