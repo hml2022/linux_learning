@@ -25,3 +25,34 @@
 ## 示例代码：
 ```bash
 # 示例
+
+
+
+# 命令/概念: sed选项 -n -e -f --follow-symlinks
+## 英文原文：[摘录关键句子]
+-n 
+suppress automatic printing of pattern space
+-e script
+add the script to the commands to be executed
+-f script-file
+--follow-symlinks
+follow symlinks when processing in place
+## 关键单词
+suppress 抑制
+add ... to ... 添加a到b
+symlinks 
+## 我的翻译：[自己的理解]
+-n
+抑制模式空间的自动打印
+-e
+添加脚本到待执行的命令中
+-f 
+添加脚本文件的内容到待执行的命令中
+--follow-symlinks
+
+## 核心要点：
+1. [要点1]
+2. [要点2]
+## 示例代码：
+```bash
+# 示例
