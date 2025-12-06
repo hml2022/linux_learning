@@ -64,3 +64,36 @@ sed -n '{ p }'  a.txt
 sed '{ p }' a.txt
 
 ```
+
+# 命令/概念：sed -l --posix -E  -s  sanbox 选项
+## 英文原文：[摘录关键句子]
+## 单词
+specify 具体指明
+desired adj 期望得到的
+line-wrap 换行长度
+rather than 而不是
+separate 独立文件
+consider A as B
+operate 运行
+将A视为B
+## 我的翻译：[自己的理解]
+-l 
+为l命令指定期望的换行长度
+--posix
+禁用所有的GNU扩展
+-E
+use extended regular expressions in the script 
+在脚本中使扩展正则表达式
+-s
+将文件视为独立的，而不是单一，连续的长数据流
+--sandbox
+operate in sanbox mode
+在sanbox mode模式里面操作
+
+
+## 核心要点：
+1. [要点1]
+2. [要点2]
+## 示例代码：
+```bash
+# 示例
