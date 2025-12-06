@@ -41,6 +41,8 @@ follow symlinks when processing in place
 suppress 抑制
 add ... to ... 添加a到b
 symlinks 
+in place 原地
+supplied 被提供
 ## 我的翻译：[自己的理解]
 -n
 抑制模式空间的自动打印
@@ -49,10 +51,16 @@ symlinks
 -f 
 添加脚本文件的内容到待执行的命令中
 --follow-symlinks
+sed在进行原地处理时，要遵循符号链接
+-i[SUFFIX]
+如果提供了后缀，则备份
 
 ## 核心要点：
 1. [要点1]
 2. [要点2]
 ## 示例代码：
 ```bash
-# 示例
+sed -n '{ p }'  a.txt
+sed '{ p }' a.txt
+
+```
