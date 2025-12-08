@@ -22,21 +22,8 @@
 ## 核心要点：
 1. sed只遍历文本一遍
 2. 在管道中过滤文本
-## 示例代码：
-```bash
-# 示例
-
-
 
 # 命令/概念: sed选项 -n -e -f --follow-symlinks
-## 英文原文：[摘录关键句子]
--n 
-suppress automatic printing of pattern space
--e script
-add the script to the commands to be executed
--f script-file
---follow-symlinks
-follow symlinks when processing in place
 ## 关键单词
 suppress 抑制
 add ... to ... 添加a到b
@@ -55,18 +42,7 @@ sed在进行原地处理时，要遵循符号链接
 -i[SUFFIX]
 如果提供了后缀，则备份
 
-## 核心要点：
-1. [要点1]
-2. [要点2]
-## 示例代码：
-```bash
-sed -n '{ p }'  a.txt
-sed '{ p }' a.txt
-
-```
-
 # 命令/概念：sed -l --posix -E  -s  sanbox 选项
-## 英文原文：[摘录关键句子]
 ## 单词
 specify 具体指明
 desired adj 期望得到的
@@ -91,9 +67,13 @@ operate in sanbox mode
 在sanbox mode模式里面操作
 
 
-## 核心要点：
-1. [要点1]
-2. [要点2]
-## 示例代码：
-```bash
-# 示例
+# 命令/概念: sed -u -z 
+# 单词
+amounts 数量
+buffers 缓冲区
+more then 频率更高
+## 我的翻译：[自己的理解]
+sed -u 
+从输入文件里加载最小的的数据，并增加输出缓冲区的刷新频率。
+-z --null-date
+用NUL分割行
