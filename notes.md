@@ -84,10 +84,22 @@ sed -u
 interpret 解释
 taken take的过去分词 拿，带去，做
 is taken as 被当作
+is name of 被视为
+specified 指定
 ## 我的翻译：[自己的理解]
-如果没有-e --expression -f --file
-选项提供，那么第一个非选项参数被当作待解析的sed脚本.
+如果没有-e --expression -f --file选项提供，那么第一个非选项参数被当作待解析的sed脚本.
+所有剩余参数被视为输入文件的名字;如果没有输入文件提供，那么会读取标准输入。 
 
+# 命令/概念：sed 第二段
+## 英文单词
+serve 服务
+reminder 提醒作用的东西
+consulted 查找
+fuller 完整的
+descriptions 描述
+## 我的翻译：[自己的理解]
+这仅仅是简短的sed命令概括用来作一个提醒已经懂的sed的人;
+完整的文档必须查找其他文档。
 ## 核心要点：
 1. [要点1]
 2. [要点2]
